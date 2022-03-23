@@ -23,16 +23,17 @@ For these tasks, you are expected to write your code in the file `server.js`
 
 1. Initialise npm into your project
    `npm init -y`
-2. Install the express.js npm package
+2. Set the `package.json` type to module
+3. Install the express.js npm package
    `npm i express`
-3. Create a file for your server (`server.js`)
+4. Create a file for your server (`server.js`)
 
 
 ## Task 2 - Set up your server
 
 ##### starter code
 ```javascript
-const express = require('express');
+import express from 'express';
 const app = express();
 
 app.use(express.urlencoded({extended:true}));
