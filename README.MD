@@ -76,7 +76,7 @@ A car object should be added to the array of cars. This middleware should return
 
 
 
-## Task 7 - Add middleware for a PUT request to 'api/cars/update/:id'
+## Task 7 - Add middleware for a PATCH request to 'api/cars/update/:id'
 Write some middleware that will respond to the path `api/cars/update/:id`. This middleware should update an existing car and return a json `response` with the list of cars (including the newly added one) and a status code 200. 
 
 - If a faulty id parameter was supplied it should return status code 400 (Bad Request). 
