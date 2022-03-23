@@ -83,7 +83,7 @@ Write some middleware that will respond to the path `api/cars/update/:id`. This 
 - If an id was supplied but it can't be found in the array return status code 404.
 
 ## Task 8 - Add middleware for a DELETE request to 'api/cars/delete/:id'
-Write some middleware that will respond to the path `api/cars/update`. This middleware should delete the car by id and should return a json `response` with the list of cars (excluding the car that was deleted) and a status code 200.
+Write some middleware that will respond to the path `api/cars/delete/:id`. This middleware should delete the car by id and should return a json `response` with the list of cars (excluding the car that was deleted) and a status code 200.
 
 - If a faulty id paramater was supplied it should return status code 400 (Bad Request). 
 - If an id was supplied but it can't be found in the array return status code 404.
